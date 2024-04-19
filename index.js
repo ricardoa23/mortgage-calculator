@@ -95,6 +95,7 @@ const propertyTaxRates = {
 
 
 const calculateMortgage = () => {
+
     const principal = document.getElementById('amount').value;
     const interestRate = document.getElementById('interest').value;
     const loanDuration = document.getElementById('duration').value * 12;
@@ -104,6 +105,3 @@ const calculateMortgage = () => {
     console.log(mortgage)
 
 }
-
-
-
